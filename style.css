@@ -40,3 +40,31 @@ h1 {
 h2 {
   margin-bottom: 10px;
 }
+
+/*CONTACTO FORMULARIO */
+.formulario {
+  max-width: 400px;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.formulario input,
+.formulario textarea {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+.formulario button {
+  padding: 10px;
+  background: #1a1717;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.formulario button:hover {
+  background: #333;
+}
